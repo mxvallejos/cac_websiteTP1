@@ -1,0 +1,63 @@
+.bg-darker {
+  background: black;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.bg-darker img {
+  opacity: 1;
+  transition: 0.5s opacity;
+}
+
+.bg-darker:hover img {
+  opacity: 0.75;
+}
+
+.bg-darker .bg-darker2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0px;
+  color: white;
+  font-size: 1.2em;
+  left: 0px;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.4s padding;
+  text-align: center;
+  width: 100%;
+}
+
+.bg-footer {
+  background-color: #1c445a;
+}
+
+.bg-loc {
+  background-color: #3d5050;
+}
+
+.text-link {
+  text-decoration: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.paragraph-fix {
+  left: 46.5%;
+  padding-left: 20px;
+  width: 50%;
+  font-size: 1.5vw;
+}
+
+.text-down-50 {
+  position: relative;
+  bottom: -12vw;
+}
+
+.btn-green {
+  background-color: #95c842 !important;
+  border-color: #95c842 !important;
+}
+
